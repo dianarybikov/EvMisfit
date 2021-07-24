@@ -1,1 +1,5 @@
-
+li {
+    display: inline;
+    padding: 20px;
+    margin-left: 100px;
+}
