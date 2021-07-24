@@ -8,14 +8,14 @@ fetch(baseUrl)
     let img = document.createElement('img')
     let p = document.createElement('p')
 
-    h2.textContent = product.name
     img.src = product.image
+    h2.textContent = product.name
     p.textContent = product.description
 
     // li.addEventListener('click', () => {
     //   window.location.replace(`/show.html?id=${game.id}`)
     // })
 
-    li.append(h2, img, p)
+    li.append(img, h2, p)
     ul.appendChild(li)
   }))
